@@ -1,23 +1,10 @@
-# Social-Media-Computing-Final-Assignment
+# Social-Media-Computing-Final-Assignment: Emotion Classification on Twitter Messages
 
 Made by:
 | Role    | Name                              | Student ID |
 | :------ | :---------------------------------| :--------- |
 | Student | Muhammad Muzaffar bin Mazlan      | 1211103184 |
 | Student | Muhammad Haikal Afiq bin Rafingei | 1211103141 |
-
-## Social Media Computing (CDS-6344) Final Assignment: Emotion Classification on Twitter Messages
-
-This project develops an end-to-end Natural Language Processing (NLP) pipeline designed to extract, analyze, and visualize sentiments, opinions, and aspect-based sentiments from a large textual dataset of Twitter messages. Moving beyond traditional positive/negative sentiment classification, this system focuses on fine-grained emotion classification and offers granular insights into public opinion by identifying sentiments towards specific aspects discussed in tweets.
-
-The dashboard, built using Streamlit, provides an interactive interface for exploring dataset statistics, emotion distributions, word clouds, model evaluation metrics, and Aspect-Based Sentiment Analysis (ABSA) results.
-
-
-## Problem Statement
-
-In the vast and dynamic landscape of social media, Twitter (now X) serves as a significant real-time reservoir of human expression and opinion. While traditional sentiment analysis categorizes text into broad positive, negative, or neutral polarities, this approach often oversimplifies the rich and nuanced spectrum of human emotions. There is a pressing need for a more granular understanding of these expressions, moving beyond general sentiment to identify specific emotional states (such as sadness, joy, anger, fear, surprise, and love) and even the particular aspects within a text that evoke these emotions.
-
-The core challenge lies in developing a robust and scalable Natural Language Processing (NLP) pipeline capable of accurately extracting, analyzing, and visualizing these fine-grained emotions from the brevity and informality of Twitter messages. Furthermore, to provide actionable insights, the system must not only classify overall emotions but also delve into Aspect-Based Sentiment Analysis (ABSA) to pinpoint the specific entities or topics that are the focus of these emotional expressions. This comprehensive understanding is crucial for applications ranging from monitoring public perception and trends to informing targeted strategies in various domains.
 
 ## Project Overview
 
@@ -161,6 +148,36 @@ Once all dependencies are installed and the `emotion.csv` file is in place, run 
 streamlit run app.py
 ```
 
+## Visualizations
+
+Emotion WordCloud
+
+![visualizations/emotion wordcloud.png](https://github.com/albrynx/Social-Media-Computing-Final-Assignment/blob/main/visualizations/emotion%20wordcloud.png)
+
+Emotion Distribution in Dataset
+
+![visualizations/emotion distribution in dataset.png](https://github.com/albrynx/Social-Media-Computing-Final-Assignment/blob/main/visualizations/emotion%20distribution%20in%20dataset.png)
+
+Sentiment Distribution for Top 15 Aspects
+
+![visualizations/sentiment distribution for top 15 aspects.png](https://github.com/albrynx/Social-Media-Computing-Final-Assignment/blob/main/visualizations/sentiment%20distribution%20for%20top%2015%20aspects.png)
+
+Logistic Regression Confusion Matrix
+
+![visualizations/confusion matrix logistic regression.png](https://github.com/albrynx/Social-Media-Computing-Final-Assignment/blob/main/visualizations/confusion%20matrix%20logistic%20regression.png)
+
+BiLSTM Confusion Matrix
+
+![visualizations/confusion matrix bilstm.png](https://github.com/albrynx/Social-Media-Computing-Final-Assignment/blob/main/visualizations/confusion%20matrix%20bilstm.png)
+
+BERT Confusion Matrix
+
+![visualizations/confusion_matrix_bert.png](https://github.com/albrynx/Social-Media-Computing-Final-Assignment/blob/main/visualizations/confusion%20matrix%20bert.png)
+
+Comparison of Accuracy between Models
+
+![visualizations/model accuracy comparison.png](https://github.com/albrynx/Social-Media-Computing-Final-Assignment/blob/main/visualizations/model%20accuracy%20comparison.png)
+
 ## Future Work
 
 This project has established a foundational NLP pipeline for emotion and aspect-based sentiment analysis. To further enhance its capabilities and practical utility, we propose the following future work:
@@ -176,6 +193,3 @@ This project has established a foundational NLP pipeline for emotion and aspect-
 * **User Feedback & Model Improvement:** Incorporate a mechanism for users to provide feedback on the model's predictions. This feedback loop could be utilized to continuously refine and improve the model's accuracy over time.
 
 * **Multilingual Support:** Extend the current framework to support emotion and ABSA in multiple languages, broadening the application's global relevance.
-
----
-*All project code, including the `app.py` dashboard, Jupyter notebooks, and a digital copy of the report, will be hosted on a GitHub/COLAB repository. The instructor (Dr. Mohammad Shadab Khan) and the assigned tutor will be added as collaborators to ensure direct access and analysis of the codebase. Visual screenshots of the dashboard and key analysis results will also be included in the repository for quick reference.*
