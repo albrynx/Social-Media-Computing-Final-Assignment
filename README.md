@@ -79,11 +79,9 @@ The Streamlit dashboard (`app.py`) provides the following interactive features:
 ## Project Structure
 ```bash
 ├── app.py                                       # Streamlit dashboard application
-├── emotion.csv                                  # Dataset file
+├── emotion.csv                                  # Dataset file (Download from the link provided in Dataset Section)
 ├── final assignment.ipynb                       # Jupyter Notebook for detailed analysis (preprocessing, model training, evaluation)
 ├── BERT.ipynb                                   # Jupyter Notebook for BERT-specific training/tuning
-├── Social Media Assignment Report.docx          # Project report document
-├── Corrected Assignment Guidelines Jan 2025.pdf # Assignment guidelines
 └── README.md                                    # This file
 ```
 
