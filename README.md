@@ -6,7 +6,7 @@ Made by:
 | Student | Muhammad Muzaffar bin Mazlan  | 1211103184 |
 | Student | Muhammad Haikal Afiq bin Rafingei | 1211103141 |
 
-## Social Media Computing (CDS-6344) Final Assignment: Emotion and Aspect-Based Sentiment Analysis on Twitter Messages
+## Social Media Computing (CDS-6344) Final Assignment: Emotion Classification on Twitter Messages
 
 This project develops an end-to-end Natural Language Processing (NLP) pipeline designed to extract, analyze, and visualize sentiments, opinions, and aspect-based sentiments from a large textual dataset of Twitter messages. Moving beyond traditional positive/negative sentiment classification, this system focuses on fine-grained emotion classification and offers granular insights into public opinion by identifying sentiments towards specific aspects discussed in tweets.
 
