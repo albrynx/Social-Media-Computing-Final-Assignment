@@ -1,9 +1,9 @@
 # Social-Media-Computing-Final-Assignment
 
 Made by:
-| Role    | Name                          | Student ID |
-| :------ | :---------------------------- | :--------- |
-| Student | Muhammad Muzaffar bin Mazlan  | 1211103184 |
+| Role    | Name                              | Student ID |
+| :------ | :---------------------------------| :--------- |
+| Student | Muhammad Muzaffar bin Mazlan      | 1211103184 |
 | Student | Muhammad Haikal Afiq bin Rafingei | 1211103141 |
 
 ## Social Media Computing (CDS-6344) Final Assignment: Emotion Classification on Twitter Messages
@@ -159,3 +159,23 @@ Once all dependencies are installed and the `emotion.csv` file is in place, run 
 
 ```bash
 streamlit run app.py
+```
+
+## Future Work
+
+This project has established a foundational NLP pipeline for emotion and aspect-based sentiment analysis. To further enhance its capabilities and practical utility, we propose the following future work:
+
+* **Live Model Integration & Prediction Interface:** Implement and integrate the fully trained BiLSTM and BERT models into the Streamlit dashboard, replacing current placeholders. This will enable real-time emotion and aspect-based sentiment prediction on user-inputted text, providing an interactive demonstration of their advanced capabilities.
+
+* **Advanced ABSA Implementation:** Explore and integrate more sophisticated Aspect-Based Sentiment Analysis techniques, such as fine-tuned transformer models specifically designed for ABSA (e.g., BERT-ABSA). This would allow for more nuanced contextual sentiment analysis per aspect and potentially the categorization of aspects into broader themes.
+
+* **Real-time Data Ingestion & Monitoring:** Integrate the dashboard with social media APIs (e.g., Twitter API, if accessible) to facilitate real-time data ingestion. This would enable live monitoring of emotional trends and aspect-level sentiments, offering dynamic insights for various applications.
+
+* **Deployment & Scalability:** Deploy the Streamlit application to a cloud platform (e.g., Streamlit Community Cloud, Heroku, AWS) to make it publicly accessible and to ensure scalability for handling larger volumes of data.
+
+* **User Feedback & Model Improvement:** Incorporate a mechanism for users to provide feedback on the model's predictions. This feedback loop could be utilized to continuously refine and improve the model's accuracy over time.
+
+* **Multilingual Support:** Extend the current framework to support emotion and ABSA in multiple languages, broadening the application's global relevance.
+
+---
+*All project code, including the `app.py` dashboard, Jupyter notebooks, and a digital copy of the report, will be hosted on a GitHub/COLAB repository. The instructor (Dr. Mohammad Shadab Khan) and the assigned tutor will be added as collaborators to ensure direct access and analysis of the codebase. Visual screenshots of the dashboard and key analysis results will also be included in the repository for quick reference.*
