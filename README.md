@@ -17,7 +17,7 @@ The dashboard, built using Streamlit, provides an interactive interface for expl
 
 In the vast and dynamic landscape of social media, Twitter (now X) serves as a significant real-time reservoir of human expression and opinion. While traditional sentiment analysis categorizes text into broad positive, negative, or neutral polarities, this approach often oversimplifies the rich and nuanced spectrum of human emotions. There is a pressing need for a more granular understanding of these expressions, moving beyond general sentiment to identify specific emotional states (such as sadness, joy, anger, fear, surprise, and love) and even the particular aspects within a text that evoke these emotions.
 
-The core challenge lies in developing a robust and scalable Natural Language Processing (NLP) pipeline capable of accurately extracting, analyzing, and visualizing these fine-grained emotions from the brevity and informality of Twitter messages. Furthermore, to provide actionable insights, the system must not only classify overall emotions but also delve into **Aspect-Based Sentiment Analysis (ABSA)** to pinpoint the specific entities or topics that are the focus of these emotional expressions. This comprehensive understanding is crucial for applications ranging from monitoring public perception and trends to informing targeted strategies in various domains.
+The core challenge lies in developing a robust and scalable Natural Language Processing (NLP) pipeline capable of accurately extracting, analyzing, and visualizing these fine-grained emotions from the brevity and informality of Twitter messages. Furthermore, to provide actionable insights, the system must not only classify overall emotions but also delve into Aspect-Based Sentiment Analysis (ABSA) to pinpoint the specific entities or topics that are the focus of these emotional expressions. This comprehensive understanding is crucial for applications ranging from monitoring public perception and trends to informing targeted strategies in various domains.
 
 ## Project Overview
 
@@ -91,13 +91,13 @@ The Streamlit dashboard (`app.py`) provides the following interactive features:
 
 ## Project Structure
 ```bash
-├── app.py                     # Streamlit dashboard application
-├── emotion.csv                # Dataset file
-├── final assignment.ipynb     # Jupyter Notebook for detailed analysis (preprocessing, model training, evaluation)
-├── BERT.ipynb                 # Jupyter Notebook for BERT-specific training/tuning
-├── Social Media Assignment Report.docx  # Project report document
+├── app.py                                       # Streamlit dashboard application
+├── emotion.csv                                  # Dataset file
+├── final assignment.ipynb                       # Jupyter Notebook for detailed analysis (preprocessing, model training, evaluation)
+├── BERT.ipynb                                   # Jupyter Notebook for BERT-specific training/tuning
+├── Social Media Assignment Report.docx          # Project report document
 ├── Corrected Assignment Guidelines Jan 2025.pdf # Assignment guidelines
-└── README.md                  # This file
+└── README.md                                    # This file
 ```
 
 ## Setup and Installation
